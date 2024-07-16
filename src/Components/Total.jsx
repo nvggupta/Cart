@@ -5,6 +5,8 @@ function Total() {
     const CartValue = useContext(CartContext);
     const handleClearCart = () => {
       CartValue.setitems([]);  // Clear the cart
+      CartValue.setTotal(0);
+      CartValue.setPrice(0);
   };
    
   return (
