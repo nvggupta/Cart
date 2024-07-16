@@ -1,0 +1,22 @@
+[
+    {
+      "image": "",
+      "name": "Iphone 15",
+      "price": "150000"
+    },
+    {
+      "image": "./Assets/images.jpg",
+      "name": "iphone 14",
+      "price": "100000"
+    },
+    {
+      "image": "./Assets/images.png",
+      "name": "iphone 13",
+      "price": "80000"
+    },
+    {
+      "image": "./Assets/shopping.webp",
+      "name": "iphone 12",
+      "price": "75000"
+    }
+  ]
