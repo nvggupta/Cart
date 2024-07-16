@@ -27,7 +27,7 @@ function Items({ image, name, price, id }) {
       return prevQuantity;
     });
   }
-
+  
   const handleRemoveItem = () => {
     console.log('====================================');
     console.log("clicked" , id);

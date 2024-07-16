@@ -5,11 +5,11 @@ import { CartContext } from "./CartContext/CartContext";
 import data from '../Item.json';
 
 function CartItems() {
- 
+ const cartValue = useContext(CartContext);
   return (
     <>
       <div>
-        {data.map((elem , ind) => (
+        {cartValue.items.map((elem , ind) => (
           <Items key={ind} id={ind} image={elem.image} name={elem.name} price={elem.price} />
         ))}
       </div>
